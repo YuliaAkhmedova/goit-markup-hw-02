@@ -1,0 +1,68 @@
+.section-hero {
+  color: var(--white-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background-color: #2f303a;
+}
+
+.button {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.section-title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+}
+
+.team-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+
+.team-text {
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+
+.advan-title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.advan-text {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+/* PORTFOLIO */
+
+.button-text {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}

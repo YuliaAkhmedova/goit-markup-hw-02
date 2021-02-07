@@ -1,0 +1,91 @@
+:root {
+  --primary-text-color: #757575;
+  --background-color: #ffffff;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-text-color: #ffffff;
+}
+
+body {
+  font-family: Roboto;
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* HEADER */
+
+.navigation {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.navigation:hover {
+  color: var(--accent-color);
+}
+
+.navigation:focus {
+  color: var(--accent-color);
+}
+
+.logo {
+  font-size: 26px;
+  color: var(--title-text-color);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.contacts {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contacts:hover {
+  color: var(--accent-color);
+}
+
+.contacts:focus {
+  color: var(--accent-color);
+}
+
+/* FOOTER */
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-studio {
+  color: var(--white-text-color);
+}
+
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer-address {
+  color: var(--white-text-color);
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
